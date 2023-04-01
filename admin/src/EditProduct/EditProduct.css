@@ -1,0 +1,36 @@
+.title {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.input-name {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+}
+.input-category {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+}
+.input-Short-Desc {
+  width: 80%;
+  height: 55px;
+  padding: 10px;
+}
+.input-Long-Desc {
+  width: 80%;
+  height: 70px;
+  padding: 10px;
+}
+.img-input {
+  width: 80%;
+  height: 70px;
+  padding: 10px;
+}
+.submit-form {
+  background-color: #5f76e8;
+  color: white;
+  text-align: left;
+}

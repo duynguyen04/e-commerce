@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.chat {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  /* gap: 2%; */
+  height: 92vh;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+.content {
+  height: 542px; /* Đặt độ cao cho phần tử */
+  overflow-y: scroll; /* Hiển thị thanh cuộn luôn */
+}
+.userlist {
+  background-color: white;
+  border: 1px solid rgba(185, 185, 185, 0.514);
+  margin-left: 20px;
+}
+.user_list_item {
+  display: grid;
+  grid-template-columns: 20% 75%;
+  gap: 5%;
+  padding: 5px;
+  border-bottom: 1px solid rgba(185, 185, 185, 0.514);
+}
+.user_list_item_id {
+  width: 100%;
+  word-wrap: break-word;
+  text-align: left;
+}
+.message {
+  position: relative;
+}
+.form_input {
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  /* display: ; */
+}
+.send_btn {
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+.admin {
+  text-align: right;
+}
+.client {
+  text-align: left;
+}
+.chat-client {
+  display: grid;
+  grid-template-columns: 40px auto;
+}
+.message-content {
+  background-color: #e4fbf8;
+  padding: 5px 5px;
+  margin: 5px 0px;
+  display: inline-block;
+  /* width: fit-content; */
+}

@@ -1,0 +1,18 @@
+header {
+  background-color: #f9fbfd;
+  color: #687ee9;
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #f9fbfd;
+  color: #687ee9;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
